@@ -4,7 +4,8 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 #Model_path = "D:\Codebasics MAchine learning course\ML Projects\Project -2\Project_2_code"
-model_data = joblib.load("D:\\Codebasics MAchine learning course\\ML Projects\\Project -2\\Project_2_code\\model_data.joblib")
+#D:\\Codebasics MAchine learning course\\ML Projects\\Project -2\\Project_2_code\\
+model_data = joblib.load("model_data.joblib")
 model = model_data["model"]
 features = model_data["features"]
 scaler = model_data["scaler"]
